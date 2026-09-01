@@ -4,25 +4,21 @@
 			VESE - Vehicle Electronics and System Engineering
 		</title>
 
-		<body>
-			<img src="/VESE logo.png" alt="VESE Logo" />
-			<h1>
-				Welcome to VESE!
-			</h1>
-			<p>
-				Located the University of Illinois at Chicago, VESE is a student organization located in the makerspace focused on building 
-			</p>
-		</body>
+		<style>
+			img{
+				display: block;
+				margin-right: 0 auto;
+				margin-left: 0 auto;
+				max-width: 100%;
+				height: auto;
+			}
+		</style>
+	
 	</head>
+
+	<body>
+		<img src="/VESE logo.png" alt="VESE Logo" />
+		<slot />
+	</body>
+
 </html>
-
-
-<style> <!-- develops the CSS or the themes -->
-	img{
-		display: block;
-		margin-right: 0 auto;
-		margin-left: 0 auto;
-		max-width: 100%;
-		height: auto;
-	}
-</style>
